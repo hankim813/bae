@@ -1,20 +1,9 @@
-<nav class="navbar navbar-default" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Bae</a>
+<div class="navbar-bg">
+  <div class="navbar-container center">
+    <%= link_to "Home", root_path %> |
+    <%= link_to "Serve", serve_path %>
+    <%= link_to image_tag("logo.png", alt: "BAE Logo"), root_path %>
+    <%= link_to "Planet", planet_path %> |
+    <%= link_to "Contact", contact_path %>
   </div>
-
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse navbar-ex1-collapse">
-    <ul class="nav navbar-nav navbar-right">
-      <li><%= link_to "Home", root_path %></li>
-      <li><%= link_to "Serve Bae", serve_path %></li> 
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</nav>
+</div>

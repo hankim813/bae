@@ -1,1 +1,87 @@
 @import 'bootstrap';
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+/* Navbar */
+.navbar-bg {
+	width: 100%;
+	position: fixed;
+	z-index: 500;
+	padding-top: 25px;
+	padding-bottom: 10px;
+	background-color: #FFF;
+}
+
+.navbar-container {
+	width: 80%;
+	margin: auto;
+	color: #BDBDBD;
+}
+
+.navbar-container a {
+	margin: 2%;
+	padding: 5px;
+	color: #585858;
+	letter-spacing: 1px;
+}
+
+.navbar-container a:hover {
+	color: #BDBDBD;
+}
+
+/* Homepage */
+
+.homepage-jumbo {
+	width: 80%;
+	position: relative;
+	top: 185px;
+	margin: auto;
+}
+
+.homepage-jumbo img {
+	max-width: 900px;
+	height: auto;
+	opacity: 0.8;
+	border: 2px solid #00FFBF;
+}
+
+.homepage-jumbo h1 {
+	font-size: 55px;
+	color: #FFF;
+	position: relative; 
+	text-align: center;
+	top: -270px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.homepage-jumbo button {
+	position: relative;
+	text-align: right;
+	top: -270px;
+}
+
+.homepage-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 95px;
+	padding-left: 60px;
+}
+
+.homepage-about-1 {
+	float: left; 
+	display: inline-block;
+	width: 60%;
+}
+
+.homepage-container img {
+	opacity: 0.8;
+	border: 2px solid #00FFBF;
+}
+
+.homepage-container h2 {
+	color: #FFF;
+	position: relative;
+	width: 450px;
+	top: -125px;
+	text-align: center;
+	left: 25px;
+}
