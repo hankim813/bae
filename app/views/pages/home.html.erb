@@ -1,12 +1,27 @@
-<div class="homepage-jumbo center">
+<div class="homepage-jumbo clear">
 	<%= image_tag "ice-tea.jpg" %>
 	<h1>Before all else, Be an Earth Lover!</h1><br>
-	<button type="button" class="btn btn-info btn-lg">Learn How</button>
+	<%= button_to "Learn How", serve_path, class: "btn btn-lg btn-info" %>
 	<hr>
-</div>
-<div class="homepage-container clear">
-	<div class="hompage-about-1">
+
+	<div class="homepage-about-1">
 		<%= image_tag "tea-color.jpg" %>
-		<h2>bae is an ambrosial, zero calorie tea brewed from organically ingredients.</h2>
 	</div>
+
+	 <div class="homepage-about-2">
+		<%= image_tag "green-tea.jpg" %>
+	</div>
+
+	<div class="homepage-about-3">
+		<%= image_tag "sample.jpg" %>
+		<h3>Free Samples!</h3>
+	</div>
+</div>
+
+<div class="homepage-jumbo-2 clear">
+	<div class="green-hr"></div>
+	<div class="slogan">
+		<h3>bae is changing the world, one glass at a time. <br>certified, fresh from source. &nbsp; <span class="glyphicon glyphicon-leaf" style="color: #519548;"></span></h3>
+	</div>
+	<div class="green-hr-2"></div>
 </div>
