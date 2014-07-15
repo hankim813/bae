@@ -8,8 +8,7 @@
 	width: 100%;
 	position: fixed;
 	z-index: 500;
-	padding-top: 25px;
-	padding-bottom: 10px;
+	padding-bottom: -10px;
 	background-color: #FFF;
 }
 
@@ -138,12 +137,11 @@
 }
 
 .slogan {
-	text-align: center;
+	text-align: left;
 	font-size: 50px;
-	float: left;
 	position: relative; 
 	width: 100%;
-	padding: 55px 0 20px 0;
+	padding: 55px 0 55px 5%;
 }
 
 .slogan h3 {
@@ -216,19 +214,109 @@
 .servepage-jumbo-2 img {
 	width: 45%;
 	height: auto;
-	margin: 45px 65px 45px 0;
+	margin: 65px 65px 45px 0;
 	float: left;
 	display: inline-block;
 }
 
 .servepage-jumbo-2 h3 {
-	padding-top: 15px;
+	padding-top: 40px;
 	text-align: left;
 }
 
 .servepage-jumbo-2 p {
-	padding: 10px 35px;
+	padding: 15px;
+	margin-left: 25px;
 	color: #848484;
-	font-size: 13px;
-	text-align: justify;
+	font-size: 18px;
+	text-align: left;
+}
+
+.bae-action {
+	margin-top: -15px;
+	width: 100%;
+}
+
+.bae-action h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 85px;
+	text-align: center;
+	color: #519548;
+}
+
+.bae-box {
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	margin: 0;
+	height: 275px;
+	overflow: hidden;
+}
+
+.bae-box img {
+	width: auto;
+	height: 100%;
+	opacity: 0.5;
+	margin: 0;
+}
+
+.bae-box-overlay h2 {
+	font-size: 28px;
+	color: #2E2E2E;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+.bae-box-overlay-2 h2 {
+	font-size: 28px;
+	color: #2E2E2E;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+.bae-box-overlay-3 h2 {
+	font-size: 28px;
+	color: #2E2E2E;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+}
+
+.bae-box-overlay {
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	margin: 0 0 -270px 0;
+	height: 275px;
+	overflow: hidden;
+	padding: 45px 15px;
+	position: relative;
+	top: -275px;
+}
+
+.bae-box-overlay-2 {
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	margin: 0 0 -270px 0;
+	height: 275px;
+	overflow: hidden;
+	padding: 75px 15px;
+	position: relative;
+	top: -275px;
+}
+
+
+.bae-box-overlay-3 {
+	width: 33.33%;
+	float: left;
+	display: inline-block;
+	margin: 0 0 -270px 0;
+	height: 275px;
+	overflow: hidden;
+	padding: 45px 15px;
+	position: relative;
+	top: -275px;
 }
