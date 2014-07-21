@@ -21,6 +21,9 @@ a:hover {
 	text-decoration: none;
 }
 
+.btn {
+    text-align: inherit;
+}
 /* Tools */
 
 .center { text-align: center;}
@@ -58,6 +61,18 @@ a:hover {
 
 .hidden {
 	visibility: hidden;
+}
+
+.vertical-hr {
+    width: 1px; 
+    height: 465px;
+    background-color: #D8DADC;
+    float: left;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
 }
 
 hr {
