@@ -1,7 +1,7 @@
 @import 'bootstrap';
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
-@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
 
 
 /* Navbar */
@@ -42,7 +42,6 @@
 	max-width: 100%;
 	height: auto;
 	opacity: 0.8;
-	border: 2px solid #F6AB54;
 	text-align: center;
 }
 
@@ -72,9 +71,9 @@
 	width: 80%;
 	margin: auto;
 	position: relative;
-	top: -100px;
 	text-align: left;
 	color: #666666;
+	top: -50px;
 }
 
 .intro-text {
@@ -85,8 +84,8 @@
 
 .intro h1 {
 	text-align: left;
-	font-size: 70px;
-	font-family: 'Reenie Beanie', cursive;
+	font-size: 58px;
+	font-family: 'Special Elite', cursive;
 }
 
 .intro p {
@@ -111,15 +110,17 @@
 
 .green-hr {
 	background-color: #CBE86B;
-	width: 100%;
+	width: 80%;
 	height: 10px;
 	position: relative;
+	margin: auto;
 }
 
 .green-hr-2 {
 	background-color: #519548;
-	width: 100%;
+	width: 80%;
 	height: 10px;
+	margin: auto;
 	position: relative;
 }
 
@@ -128,7 +129,7 @@
 	font-size: 50px;
 	position: relative; 
 	width: 100%;
-	padding: 55px 0 55px 5%;
+	padding: 55px 0 0px 5%;
 }
 
 .slogan h3 {
@@ -203,8 +204,8 @@
 
 .why h1 {
 	text-align: left;
-	font-size: 70px;
-	font-family: 'Reenie Beanie', cursive;
+	font-size: 65px;
+	font-family: 'Special Elite', cursive;
 	padding-left: 35px;
 }
 
@@ -301,4 +302,68 @@
 .bae-box-img img {
 	width: 100%;
 	padding: 0;
+}
+
+/* Planet */
+
+.planet-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 215px;
+	padding-bottom: 50px;
+}
+
+.coaster {
+	width: 45%;
+	margin: 0 25px;
+	float: left;
+	display: inline-block;
+}
+
+.coaster img {
+	width: 100%;
+	height: auto;
+	opacity: 0.8;
+	transition: 0.3s ease-out;
+}
+
+.coaster img:hover {
+	opacity: 1;
+}
+
+.planet-container-2 {
+	width: 80%;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.planet-container-2 p {
+	width: 50%;
+	color: #848484;
+	font-size: 16px;
+	float: left;
+}
+
+.planet-container-2 h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 65px;
+}
+
+.planet-container-2 img {
+	float: left;
+	width: 45%;
+	margin: 0px 0 0 45px;
+	position: relative;
+	top: -95px;
+	height: auto;
+	display: inline-block;
+}
+
+/* Contact */
+
+.contact-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 215px;
 }
