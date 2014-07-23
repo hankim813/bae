@@ -363,7 +363,13 @@
 /* Contact */
 
 .contact-container {
-	width: 80%;
-	margin: auto;
+	width: 55%;
+	margin: 0 auto 50px auto;
+	padding: 25px;
+	border: 2px solid #F6AB54;
+	position: relative;
+}
+
+.padding {
 	padding-top: 215px;
 }
