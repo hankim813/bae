@@ -1,7 +1,8 @@
 <div class="homepage-jumbo clear">
 	<%= image_tag "ice-tea.jpg" %>
 	<h1>Before all else, Be an Earth Lover!</h1><br>
-	<%= button_to "Learn How", serve_path, method: "get", class: "btn btn-lg btn-info" %>
+	<%= button_to "Learn How", serve_path, method: "get", class: "btn btn-lg btn-info", id: "learn" %>
+	<%= button_to "New Account", account_path, method: "get", class: "btn btn-lg btn-success", id: "account" %>
 </div>
 
 <div class="green-hr" style="position: relative; top: -110px;"></div>

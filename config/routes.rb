@@ -4,6 +4,7 @@ Bae::Application.routes.draw do
   get "serve" => "pages#serve"
   get "planet" => "pages#planet"
   get "contact" => "pages#contact"
+  get "account" => "pages#account"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
